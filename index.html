@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallica - Impact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+	<!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="flex-search">
+        <!-- <img src="Frame 1.png" alt="maquette" id="maquette"> -->
+        <select name="author-sel" id="author-sel">
+            <option value="Charles Baudelaire">Charles Baudelaire</option>
+            <option value="Emile Zola">Emile Zola</option>
+            <option value="Jules Verne">Jules Verne</option>
+            <option value="Jack London">Jack London</option>
+            <option value="Ernest Hemingway">Ernest Hemingway</option>
+            <option value="Charles Bukowski">Charles Bukowski</option>
+        </select>
+        
+        <!-- <div id="custom-author-container">
+            <label for="custom-author">Vous cherchez un autre auteur ?</label>
+            <input type="text" name="custom-author" id="custom-author" placeholder="un autre auteur">
+            <button type="submit">Go</button>   
+        </div> -->
+        
+
+    </div>
+
+    <figure id="author-fig">
+        <img src="" alt="" id="author-img"> 
+        <figcaption>
+            <span id="author-name"></span>
+            <br><span id="author-dates"></span>
+        </figcaption>
+    </figure>
+
+    <div id="num-top">
+        <p>cité dans</p>
+        <p><span id="total-score">00000</span> ouvrages</p>
+        <p>référencés sur Gallica</p>
+    </div>
+
+    <div id="num-list">
+        <ul>
+            <li class="cat-0">
+                <!-- <span class="score">1000</span> -->
+                <span class="legend-cat-number">0</span>
+                <span class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span class='legend-cat-name'>
+                    Généralités
+                </span>
+            </li>
+            <li class="cat-1">
+                <!-- <span class="score">320</span> -->
+                <span class="legend-cat-number">1</span>
+                <span class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span class='legend-cat-name'>
+                    Philosophie et psychologie
+                </span>
+            </li>
+            <li class="cat-2">
+                <!-- <span class="score">300</span> -->
+                <span class="legend-cat-number">2</span>
+                <span class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span class='legend-cat-name'>
+                    Religion
+                </span>
+            </li>
+            <li class="cat-3">
+                <!-- <span class="score">272</span> -->
+                <span class="legend-cat-number">3</span>
+                <span class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                Économie et société</li>
+            <li class="cat-4">
+                <!-- <span class="score">260</span> -->
+                <span class="legend-cat-number">4</span>
+                <span class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span class='legend-cat-name'>
+                    Langues
+                </span>
+            </li>
+            <li class="cat-5">
+                <!-- <span class="score">220</span> -->
+                <span class="legend-cat-number">5</span>
+                <span class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span class='legend-cat-name'>
+                    Sciences
+                </span>
+            </li>
+            <li class="cat-6">
+                <!-- <span class="score">200</span> -->
+                <span class="legend-cat-number">6</span>
+                <span class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span class='legend-cat-name'>
+                    Techniques
+                </span>
+            </li>
+            <li class="cat-7">
+                <!-- <span class="score">100</span> -->
+                <span class="legend-cat-number">7</span>
+                <span class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span class='legend-cat-name'>
+                    Arts et loisirs
+                </span>
+            </li>
+            <li class="cat-8">
+                <!-- <span class="score">50</span> -->
+                <span class="legend-cat-number">8</span>
+                <span class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span class='legend-cat-name'>
+                    Littérature
+                </span>
+            </li>
+            <li class="cat-9">
+                <!-- <span class="score">25</span> -->
+                <span class="legend-cat-number">9</span>
+                <span class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span class='legend-cat-name'>
+                    Histoire et géographie
+                </span>
+            </li>
+        </ul>
+    </div>
+
+    <div id="dataviz">
+        
+    </div>
+
+    <!-- <script src="./treemap.js"></script> -->
+    <script src="./customDraw.js"></script>
+</body>
+</html>

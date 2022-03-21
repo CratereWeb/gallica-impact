@@ -1,0 +1,137 @@
+/* Styles go here */
+
+:root{
+    --cat-0:#A6D7F2;
+    --cat-1:#436AF1;
+    --cat-2:#994CFB;
+    --cat-3:#F8E434;
+    --cat-4:#FDBDDC;
+    --cat-5:#B0DA08;
+    --cat-6:#F0950D;
+    --cat-7:#FF22A7;
+    --cat-8:#CC0B0B;
+    --cat-9:#17AF8A;
+}
+
+
+.cat-0{margin-bottom:2px;color:#000;background-color:var(--cat-0);}
+.cat-1{margin-bottom:2px;color:#000;background-color:var(--cat-1);}
+.cat-2{margin-bottom:2px;color:#000;background-color:var(--cat-2);}
+.cat-3{margin-bottom:2px;color:#000;background-color:var(--cat-3);}
+.cat-4{margin-bottom:2px;color:#000;background-color:var(--cat-4);}
+.cat-5{margin-bottom:2px;color:#000;background-color:var(--cat-5);}
+.cat-6{margin-bottom:2px;color:#000;background-color:var(--cat-6);}
+.cat-7{margin-bottom:2px;color:#000;background-color:var(--cat-7);}
+.cat-8{margin-bottom:2px;color:#000;background-color:var(--cat-8);}
+.cat-9{margin-bottom:2px;color:#000;background-color:var(--cat-9);}
+
+
+/* FIGURE : Auteur */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#maquette{
+    max-width:100vw;
+    max-height: 100vh;
+    margin:0;
+    padding: 0;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0.3;
+    z-index:-1;
+}
+
+/* #author-sel {
+    
+} */
+
+#author-fig{
+    opacity:0.7;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top:40px;
+    left:54px;
+    height: 360px;
+    /* border:1px solid red; */
+}
+#author-fig img {
+    height:284px;
+    max-width:233px;
+    object-fit: cover;
+    display:block;
+}
+#author-fig figcaption {
+    margin-top:16px;
+    font-size: 1.5rem;
+}
+
+#flex-search{
+    display:flex;
+    width:95vw;
+    justify-content: space-between;
+}
+/* #custom-author-container {
+    
+}
+#custom-author {
+    margin-left: 16px;
+} */
+
+/* CITÉ DANS : xx ouvrages */
+#num-top {
+    position:absolute;
+    top:396px;
+    left:40px;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.2rem;
+    width: 300px;
+    /* border:1px solid red; */
+}
+#num-top p:first-child {
+    margin-left: 30px;
+    
+}
+#num-top span:first-child{
+    font-size: 3.4rem;
+    font-weight: 600;
+}
+#num-top p:nth-child(3){
+    text-align:right;
+    font-size:0.9rem;
+    line-height:0;
+    margin-right:4px;
+}
+
+/* Citations : score par catégories */
+#num-list {
+    position: absolute;
+    top:564px;
+    left:40px;
+    width: 340px;
+    /* border: 1px solid red; */
+}
+#num-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 2.2rem;;
+    font-size: 1.4rem;
+    /* padding-left: 5px; */
+    /* border:1px solid green; */
+}
+#num-list ul li span.score {
+    text-align: right;
+}
+
+/* DATAVIZ - Treemap */
+#dataviz {
+    position: absolute;
+    /* border:1px solid red; */
+    width: 1300px;
+    height:900px;
+    left: 470px;
+    top: 40px;
+}
