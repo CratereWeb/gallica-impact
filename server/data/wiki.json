@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Charles Baudelaire",
+        "bornin": 1821,
+        "diedin": 1867,
+        "portrait": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/%C3%89tienne_Carjat%2C_Portrait_of_Charles_Baudelaire%2C_circa_1862.jpg/284px-%C3%89tienne_Carjat%2C_Portrait_of_Charles_Baudelaire%2C_circa_1862.jpg"
+    },
+    {
+        "name": "Emile Zola",
+        "bornin": 1840,
+        "diedin": 1902,
+        "portrait": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Emile_Zola_1902.jpg/173px-Emile_Zola_1902.jpg"
+    },
+    {
+        "name": "Jules Verne",
+        "bornin": 1828,
+        "diedin": 1905,
+        "portrait": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/F%C3%A9lix_Nadar_1820-1910_portraits_Jules_Verne.jpg/284px-F%C3%A9lix_Nadar_1820-1910_portraits_Jules_Verne.jpg?uselang=fr"
+    },
+    {
+        "name": "Jack London",
+        "bornin": 1876,
+        "diedin": 1916,
+        "portrait": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Jack_London_young.jpg/284px-Jack_London_young.jpg?uselang=fr"
+    },
+    {
+        "name": "Ernest Hemingway",
+        "bornin": 1899,
+        "diedin": 1961,
+        "portrait": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/ErnestHemingway.jpg/284px-ErnestHemingway.jpg?uselang=fr"
+    },
+    {
+        "name": "Charles Bukowski",
+        "bornin": 1920,
+        "diedin": 1994,
+        "portrait": "https://www.apar.tv/wp-content/uploads/2020/05/o-bukowski014sj5-facebook.jpg"
+    },
+    {
+        "name": "Charles Bukowski",
+        "bornin": 1920,
+        "diedin": 1994,
+        "portrait": "https://www.apar.tv/wp-content/uploads/2020/05/o-bukowski014sj5-facebook.jpg"
+    }
+]

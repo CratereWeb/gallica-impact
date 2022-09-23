@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,18 @@
     <title>Gallica - Impact</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-	<!-- Load d3.js -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <!-- Load d3.js -->
     <script src="https://d3js.org/d3.v6.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <div id="flex-search">
-        <!-- <img src="Frame 1.png" alt="maquette" id="maquette"> -->
         <select name="author-sel" id="author-sel">
+            <option value="0" default>---</option>
             <option value="Charles Baudelaire">Charles Baudelaire</option>
             <option value="Emile Zola">Emile Zola</option>
             <option value="Jules Verne">Jules Verne</option>
@@ -23,18 +27,12 @@
             <option value="Ernest Hemingway">Ernest Hemingway</option>
             <option value="Charles Bukowski">Charles Bukowski</option>
         </select>
-        
-        <!-- <div id="custom-author-container">
-            <label for="custom-author">Vous cherchez un autre auteur ?</label>
-            <input type="text" name="custom-author" id="custom-author" placeholder="un autre auteur">
-            <button type="submit">Go</button>   
-        </div> -->
-        
-
+        <span id="please-select"></span>
     </div>
 
+
     <figure id="author-fig">
-        <img src="" alt="" id="author-img"> 
+        <img src="" alt="" id="author-img">
         <figcaption>
             <span id="author-name"></span>
             <br><span id="author-dates"></span>
@@ -77,7 +75,8 @@
                 <!-- <span class="score">272</span> -->
                 <span class="legend-cat-number">3</span>
                 <span class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                Économie et société</li>
+                Économie et société
+            </li>
             <li class="cat-4">
                 <!-- <span class="score">260</span> -->
                 <span class="legend-cat-number">4</span>
@@ -130,10 +129,12 @@
     </div>
 
     <div id="dataviz">
-        
+
     </div>
 
-    <!-- <script src="./treemap.js"></script> -->
-    <script src="./customDraw.js"></script>
+    <script type="module" src="./js/getDataFromServer.js"></script>
+    <script type="module" src="./js/draw.js"></script>
+    <script type="module" src="./js/script.js"></script>
 </body>
+
 </html>

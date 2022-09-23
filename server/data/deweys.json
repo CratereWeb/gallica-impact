@@ -1,0 +1,77 @@
+{
+    "name": "Oeuvres",
+    "value": 11565,
+    "children": [
+          {
+              "name": "Généralités",
+              "group": "0",
+              "value": 1015,
+              "colname": "0",
+              "color": "#78A9CE"
+          },
+          {
+              "name": "Philosophie et psychologie",
+              "group": "1",
+              "value": 516,
+              "colname": "1",
+              "color": "#6D6ADE"
+          },
+          {
+              "name": "Religion",
+              "group": "2",
+              "value": 0,
+              "colname": "2",
+              "color": "#A363D4"
+          },
+          {
+              "name": "Économie et société",
+              "group": "3",
+              "value": 579,
+              "colname": "3",
+              "color": "#DFD04C"
+          },
+          {
+              "name": "Langues",
+              "group": "4",
+              "value": 0,
+              "colname": "4",
+              "color": "#DB718A"
+          },
+          {
+              "name": "Sciences",
+              "group": "5",
+              "value": 180,
+              "colname": "5",
+              "color": "#78AB1C"
+          },
+          {
+              "name": "Techniques",
+              "group": "6",
+              "value": 204,
+              "colname": "6",
+              "color": "#DE9F24"
+          },
+          {
+              "name": "Arts et loisirs",
+              "group": "7",
+              "value": 234,
+              "colname": "7",
+              "color": "#E462DF"
+          },
+          {
+              "name": "Littérature",
+              "group": "8",
+              "value": 5462,
+              "colname": "8",
+              "color": "#D81B1B"
+          },
+          {
+              "name": "Histoire et géographie",
+              "group": "9",
+              "value": 2575,
+              "colname": "9",
+              "color": "#3D8D75"
+          }
+      ]
+  }
+  
